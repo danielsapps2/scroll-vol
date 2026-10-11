@@ -1,0 +1,4 @@
+# Let the logged-in user read mouse event devices (not keyboards), so
+# scroll-vol-daemon can see wheel events without joining the "input" group.
+# Must sort before 73-seat-late.rules, which applies the uaccess ACLs.
+SUBSYSTEM=="input", KERNEL=="event*", ENV{ID_INPUT_MOUSE}=="1", TAG+="uaccess"

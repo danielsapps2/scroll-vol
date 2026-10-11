@@ -1,0 +1,19 @@
+{
+    "KPackageStructure": "KWin/Script",
+    "KPlugin": {
+        "Authors": [
+            {
+                "Name": "Daniel"
+            }
+        ],
+        "Category": "Utilities",
+        "Description": "Tells scroll-vol-daemon when the pointer is over a panel, so the mouse wheel can change the volume there.",
+        "EnabledByDefault": false,
+        "Id": "scrollvol",
+        "License": "MIT",
+        "Name": "Scroll Volume on Panel",
+        "Version": "1.0"
+    },
+    "X-Plasma-API": "javascript",
+    "X-Plasma-MainScript": "code/main.js"
+}
